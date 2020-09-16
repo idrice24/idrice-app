@@ -12,6 +12,7 @@
 	<a href="#repositories">Repositories</a>.
 	<a href="#liecensing">Licensing</a>
 </p>
+view the project on [idrice web site ](https://idrice24.github.io/idrice/) version 1.0.0
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
