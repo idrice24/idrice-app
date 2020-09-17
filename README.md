@@ -31,7 +31,13 @@
  
 # Development process
 
-# More Info
+## how-to-contribute
+
+## Repositories
+
+## contribute
+## support
+## documentation
 
 [Back to top](#table-of-contents)
 
