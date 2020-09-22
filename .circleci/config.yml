@@ -1,25 +1,13 @@
-version: 2.0
-
-jobs:
-  build:
-    working_directory: ~/idrice
-    docker:
-      - image: circleci/node:10-browsers-legacy
-    steps:
-      - checkout
-      - restore_cache:
-          key: idrice-{{ .Branch }}-{{ checksum "package.json" }}
-      - run: npm install
-      - save_cache:
-          key: idrice-{{ .Branch }}-{{ checksum "package.json" }}
-          paths:
-            - "node_modules"
-      # TODO- Bug
-      # - run: xvfb-run -a npm run test
-      # - run: xvfb-run -a npm run e2e
-      - run:
-          name: Change the current directory to backend
-          command: echo "A Command in CircleCI "
-      - run:
-          name: Just to test current directory
-          command: xvfb-run -a npm run deploy
+# Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+# Use a package of configuration called an orb.
+orbs:
+  # Declare a dependency on the welcome-orb
+  welcome: circleci/welcome-orb@0.4.1
+# Orchestrate or schedule a set of jobs
+workflows:
+  # Name the workflow "welcome"
+  welcome:
+    # Run the welcome/run job in its own container
+    jobs:
+      - welcome/run
