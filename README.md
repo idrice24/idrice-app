@@ -14,7 +14,8 @@
 	<a href="#liecensing">Licensing</a>
 </p>
 
-*TODO Link to show that project  is running on cloud
+# Link to show that project  is running on cloud
+1. visite web side on [view](idrice24.github.io/idrice/)
 # Table of contents
 1. CLI Commands(#cli-commands)
 1. Development process(#development-process)
