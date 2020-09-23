@@ -60,7 +60,8 @@ The following channels are available for discussions, feedback, and support requ
 | **Other Requests**	 | <a href="idrice.tsafouet@yahoo.com" title="Email IDRICE24 Team"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
 
 ## documentation
-## licensing (@Idrice Todo)
+
+## liecensing (@Idrice Todo)
 
 ## Architecture Overview
 You can find the architecture overview [here](documents/architecture-overview.md), which will give ou a good starting point in how the backend services interact with other services, and purpose the serve.
