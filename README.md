@@ -15,7 +15,7 @@
 </p>
 
 # Link to show that project  is running on cloud
-1. visite web side on [view](idrice24.github.io/idrice/)
+1. visite web side on [view](https://idrice24.github.io/idrice/)
 # Table of contents
 1. CLI Commands(#cli-commands)
 1. Development process(#development-process)
