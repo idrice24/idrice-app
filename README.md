@@ -11,7 +11,7 @@
 	<a href="#how-to-contribute">Contribute</a>.
 	<a href="#contributors">Contributors</a>.
 	<a href="#repositories">Repositories</a>.
-	<a href="#liecensing">Licensing</a>
+ 
 </p>
 
 # Link to show that project  is running on cloud
@@ -26,7 +26,7 @@
 |Command|Description|
 -------------|-------------
 |npm run start | start the application locally|
-|npm run deploy| publish the application  |
+|npm run gh-page| publish the application and stores the result in docs  folder automatically |
 |npm run e2e| to run end to end test of the application  |
  
 # Development process
@@ -35,14 +35,15 @@
 1. Create new branch or fork 
 1. Clone the Code or pull all*
 1. Switch to your branch from 1.
-1. Run script  start [see](#precondition)
+1. Run command (if needed) --> __npm install__
+1. Run script  start --> __npm run start__
 1. Make your change
-1. Run the batch file **deploy.cmd** sucess?
+1. Run the script **gh-page** success? --> __npm run gh-page__ 
 1. Commit with Issue number (Create a new one if number not exists)
 1. Push it
 1. Merge only with review!
 
-## how-to-contribute
+## How-to-contribute
 Contributors and feedback are encouraged and welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contributors Guidelines](./CONTRIBUTING.md). By participating in this project, you agree to abide by its [Code of Conduct](./CODE:OF_CONDUCT.md) at all times.
 
 ## Repositories
@@ -50,7 +51,7 @@ Contributors and feedback are encouraged and welcome. For more information about
 - @idrice24
 - @Ghislain1
 
-## support-and-feedback
+## Support-and-feedback
 The following channels are available for discussions, feedback, and support requests:
 |Type							| Channels 																|
 |-------------------------------|-----------------------------------------------------------------------|
@@ -59,9 +60,9 @@ The following channels are available for discussions, feedback, and support requ
 | **Backend Issue**		 | <a href="https://github.com/idrice24/idrice/issues/new/choose"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
 | **Other Requests**	 | <a href="idrice.tsafouet@yahoo.com" title="Email IDRICE24 Team"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
 
-## documentation
+## Documentation
 
-## liecensing (@Idrice Todo)
+## Licensing (@Idrice Todo)
 
 ## Architecture Overview
 You can find the architecture overview [here](documents/architecture-overview.md), which will give ou a good starting point in how the backend services interact with other services, and purpose the serve.
