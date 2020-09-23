@@ -60,15 +60,15 @@ The following channels are available for discussions, feedback, and support requ
 | **Other Requests**	 | <a href="idrice.tsafouet@yahoo.com" title="Email IDRICE24 Team"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
 
 ## documentation
-## liecensing (@Idrice Todo)
+## licensing (@Idrice Todo)
 
 ## Architecture Overview
 You can find the architecture overview [here](documents/architecture-overview.md), which will give ou a good starting point in how the backend services interact with other services, and purpose the serve.
 
 ## Precondition
 1.  Angular CLI **version 10 or higher**
-1.  Understand scripting for Automation ?@Idrice ask question
-1.  Understand Markdown for documentation ?@Idrice ask question
+1.  Understand scripting for Automation 
+1.  Understand Markdown for documentation 
 
 ## Links to sample projects and wiki
 - see [Ref.1](https://clockwise.software/blog/best-angular-applications/)
