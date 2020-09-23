@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +10,7 @@ import { ComponentsComponent } from './components/components.component';
 import { SharedComponent } from './shared/shared.component';
 import { ExamplesComponent } from './examples/examples.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { LandingComponent } from './examples/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,13 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     ComponentsComponent,
     SharedComponent,
     ExamplesComponent,
-    NavbarComponent
+    NavbarComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
