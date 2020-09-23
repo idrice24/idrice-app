@@ -46,11 +46,21 @@
 Contributors and feedback are encouraged and welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contributors Guidelines](./CONTRIBUTING.md). By participating in this project, you agree to abide by its [Code of Conduct](./CODE:OF_CONDUCT.md) at all times.
 
 ## Repositories
+## contributors
+- @idrice24
+- @Ghislain1
 
-## contribute (@Idrice ToDo)
-## support
+## support-and-feedback
+The following channels are available for discussions, feedback, and support requests:
+|Type							| Channels 																|
+|-------------------------------|-----------------------------------------------------------------------|
+| **General Discussion** | <a href="https://github.com/idrice24/idrice/issues/new/choose" title="General Discussion"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
+| **Concept Feedback**	 | <a href="https://github.com/idrice24/idrice/issues/new/choose"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
+| **Backend Issue**		 | <a href="https://github.com/idrice24/idrice/issues/new/choose"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
+| **Other Requests**	 | <a href="idrice.tsafouet@yahoo.com" title="Email IDRICE24 Team"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
+
 ## documentation
-## Liecensing (@Idrice Todo)
+## liecensing (@Idrice Todo)
 
 ## Architecture Overview
 You can find the architecture overview [here](documents/architecture-overview.md), which will give ou a good starting point in how the backend services interact with other services, and purpose the serve.
