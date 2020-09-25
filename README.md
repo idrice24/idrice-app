@@ -79,6 +79,7 @@ You can find the architecture overview [here](documents/architecture-overview.md
 
 ## Links to sample projects and wiki
 - see [Ref.1](https://clockwise.software/blog/best-angular-applications/)
+- see [Ref.2](https://themeforest.net/?auto_signin=true&_ga=2.172947365.785225314.1600995029-1816120458.1576091237)
 
 [Back to top](#table-of-contents)
 
