@@ -1,25 +1,32 @@
 # IDRICE WEB SITE
 
-<p align="center">
+<p>
     <a href="https://github.com/idrice24/idrice/issues/" title="Open Issues"><img src="https://img.shields.io/github/issues/idrice24/idrice?style=flat-square "></a>
-<a href="https://app.circleci.com/pipelines/github/idrice24/idrice" title="Circleci"><img src="https://img.shields.io/circleci/build/github/idrice24/idrice?color=green&logo=red&style=flat-square?style=flat-square"></a>
+<a href="https://app.circleci.com/pipelines/github/idrice24/idrice" title="Circleci">
+<img src="https://img.shields.io/circleci/build/github/idrice24/idrice?color=green&logo=red&style=flat-square?style=flat-square"> </a>
+
+<a href="#license" title="license">
+<img src="https://img.shields.io/npm/l/@angular/cli.svg"> </a>
+
+ 
+
 </p>
-. 
 <p align="center">
 	<a href="#documentation">Documentation</a>.
 	<a href="#support-and-feedback">Support</a>.
 	<a href="#how-to-contribute">Contribute</a>.
 	<a href="#contributors">Contributors</a>.
-	<a href="#repositories">Repositories</a>.
  
 </p>
 
-# Link to show that project  is running on cloud
-1. visite web side on [view](https://idrice24.github.io/idrice/)
+# Getting Started
+1. Visit web site  [here](https://idrice24.github.io/idrice/)
+
 # Table of contents
-1. CLI Commands(#cli-commands)
-1. Development process(#development-process)
-1. More Info(#more-info)
+1. [CLI Commands](#cli-commands)
+1. [Development process](#development-process)
+1. [How-to-contribute](#how-to-contribute)
+1. [Repositories](#repositories)
 
 
 # CLI Commands
@@ -31,7 +38,6 @@
  
 # Development process
 
-## Development process for client
 1. Create new branch or fork 
 1. Clone the Code or pull all*
 1. Switch to your branch from 1.
@@ -43,10 +49,10 @@
 1. Push it
 1. Merge only with review!
 
-## How-to-contribute
+# How-to-contribute
 Contributors and feedback are encouraged and welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contributors Guidelines](./CONTRIBUTING.md). By participating in this project, you agree to abide by its [Code of Conduct](./CODE:OF_CONDUCT.md) at all times.
 
-## Repositories
+# Repositories
 ## contributors
 - @idrice24
 - @Ghislain1
