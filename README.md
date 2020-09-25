@@ -18,9 +18,9 @@
 1. visite web side on [view](https://idrice24.github.io/idrice/)
 
 # Table of contents
-1. CLI Commands(#cli-commands)
-1. Development process(#development-process)
-1. More Info(#more-info)
+1. [CLI Commands](#cli-commands)
+1. [Development process](#development-process)
+1. [More Info](#more-info)
 
 
 # CLI Commands
