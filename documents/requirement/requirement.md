@@ -1,19 +1,21 @@
 ## Company Describtion
 1. Domain name
 1. Mission
+ -	Propose technologies solutions and resources
 1. Addresse
 	-	Mr. Tsafouet Idrice,
 	-	Douala
 	-	Tel: +237 695505757, E-Mail: idrice.tsafouet@yahoo.com
 
 #	Site Design And Deployment
-1. Domain name (@Idrice todo....)
+1. Domain name
+	- for now we are using github domain name 
 
 1. Language
 	Multiple language ie French and English
 
 1. Colors
-	The principal color will be blue
+	The principal color will be green\blue
 
 1. Activities
 	- Web Site Design
@@ -23,14 +25,15 @@
 	- Harware Maintainance
 
 1. Image
-	- Images will be produce by both the client and the admin.
+	- Images will be produce by the admin only.
 
-1. Web site Sample
-	- https://domain-name.com
+1. Web site example
+	- https://hi-techn.com
 
 1.	Logo (@Idrice ToDo)
 
-1.	Slogan (@Idrice ToDo)
+1.	Slogan
+	-	for success choose the best and look futher in future with technology( HI-TECHN)
 
 # Function Needs
 -	Model To realize
