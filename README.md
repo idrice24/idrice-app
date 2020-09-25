@@ -62,7 +62,7 @@ The following channels are available for discussions, feedback, and support requ
 |-------------------------------|-----------------------------------------------------------------------|
 | **General Discussion** | <a href="https://github.com/idrice24/idrice/issues/new/choose" title="General Discussion"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
 | **Concept Feedback**	 | <a href="https://github.com/idrice24/idrice/issues/new/choose"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
-| **Backend Issue**		 | <a href="https://github.com/idrice24/idrice/issues/new/choose"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
+| **Backend Issue**		 | <a href="https://github.com/idrice24/idrice/issues/new/choose"><img src="https://img.shields.io/circleci/build/github/idrice24/idrice?color=green&logo=red&style=flat-square?style=flat-square"></a></a> |
 | **Other Requests**	 | <a href="idrice.tsafouet@yahoo.com" title="Email IDRICE24 Team"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
 
 ## Documentation
