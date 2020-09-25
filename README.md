@@ -39,11 +39,8 @@
 1. Run command (if needed) --> __npm install__
 1. Run script  start --> __npm run start__
 1. Make your change
-<<<<<<< Updated upstream
 1. Run the script **gh-page** success? --> __npm run gh-page__ 
-=======
-1. Run the batch file **deploy.cmd** sucess? (IF ANY)
->>>>>>> Stashed changes
+1. Run the batch file **deploy.cmd** sucess? __npm run deploy__
 1. Commit with Issue number (Create a new one if number not exists)
 1. Push it
 1. Merge only with review!
@@ -62,7 +59,7 @@ The following channels are available for discussions, feedback, and support requ
 |-------------------------------|-----------------------------------------------------------------------|
 | **General Discussion** | <a href="https://github.com/idrice24/idrice/issues/new/choose" title="General Discussion"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
 | **Concept Feedback**	 | <a href="https://github.com/idrice24/idrice/issues/new/choose"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
-| **Backend Issue**		 | <a href="https://github.com/idrice24/idrice/issues/new/choose"><img src="https://img.shields.io/circleci/build/github/idrice24/idrice?color=green&logo=red&style=flat-square?style=flat-square"></a></a> |
+| **Backend Issue**		 | <a href="https://github.com/idrice24/idrice/issues/new/choose"><img src="https://img.shields.io/github/issues/idrice24/idrice?style=flat-square "></a></a> |
 | **Other Requests**	 | <a href="idrice.tsafouet@yahoo.com" title="Email IDRICE24 Team"><img src="https://img.shields.io/badge/idrice24-issues-blue"></a></a> |
 
 ## Documentation
@@ -80,6 +77,11 @@ You can find the architecture overview [here](documents/architecture-overview.md
 ## Links to sample projects and wiki
 - see [Ref.1](https://clockwise.software/blog/best-angular-applications/)
 - see [Ref.2](https://themeforest.net/?auto_signin=true&_ga=2.172947365.785225314.1600995029-1816120458.1576091237)
+
+## more info
+-	see [wiki page](https://github.com/idrice24/idrice.wiki.git)
+- see [Ref.2](https://themeforest.net/?auto_signin=true&_ga=2.172947365.785225314.1600995029-1816120458.1576091237)
+
 
 [Back to top](#table-of-contents)
 
