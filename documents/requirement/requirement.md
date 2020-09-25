@@ -65,7 +65,8 @@
 1.	Refrences 
 	Sample Web Site Project
 	-	see [Ref.1](https://clockwise.software/blog/best-angular-applications/)
-	- see .......
+	-   see [Ref.2]
+	-	see [Ref.3]
 	
 1.	Other (@Idrice ToDo)
 
