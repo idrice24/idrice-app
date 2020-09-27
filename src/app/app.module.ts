@@ -1,31 +1,29 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
-
 import { AppRoutingModule } from './app-routing.module';
+import { ExamplesModule } from './examples/examples.module';
+import { ComponentsModule } from './components/components.module';
+
+
 import { AppComponent } from './app.component';
-import { NavigationComponent } from './navigation/navigation.component';
-import { ComponentsComponent } from './components/components.component';
-import { SharedComponent } from './shared/shared.component';
-import { ExamplesComponent } from './examples/examples.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
-import { LandingComponent } from './examples/landing/landing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent,
-    ComponentsComponent,
-    SharedComponent,
-    ExamplesComponent,
-    NavbarComponent,
-    LandingComponent
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    ExamplesModule,
+    ComponentsModule,
+    RouterModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
