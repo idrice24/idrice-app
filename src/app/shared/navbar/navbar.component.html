@@ -1,73 +1,176 @@
-<nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent" color-on-scroll="500">
-    <div class="container">
-      <div class="dropdown button-dropdown">
-        <div ngbDropdown>
-          <a class="dropdown-toggle" ngbDropdownToggle>
-              <span class="button-bar"></span>
-              <span class="button-bar"></span>
-              <span class="button-bar"></span>
-          </a>
-           <div ngbDropdownMenu>
-             <a class="dropdown-header">Dropdown header</a>
-             <a class="dropdown-item" href="#">Action</a>
-             <a class="dropdown-item" href="#">Another action</a>
-             <a class="dropdown-item" href="#">Something else here</a>
-             <div class="dropdown-divider"></div>
-             <a class="dropdown-item" href="#">Separated link</a>
-             <div class="dropdown-divider"></div>
-             <a class="dropdown-item" href="#">One more separated link</a>
-           </div>
-         </div>
-      </div>
-        <div class="navbar-translate">
-            <a class="navbar-brand" [routerLink]="['/index']" placement="bottom" ngbTooltip="Designed by Idrice">
-                Now Ui Kit
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
-                <span class="navbar-toggler-bar bar1"></span>
-                <span class="navbar-toggler-bar bar2"></span>
-                <span class="navbar-toggler-bar bar3"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="orange">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="#come" target="_blank">
-                      <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-                      <p>Download</p>
-                  </a>
-              </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#come" target="_blank">
-                      <i class="now-ui-icons files_paper"></i>
-                      <p>Documentation</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-neutral" href="#come" target="_blank">
-                        <i class="now-ui-icons arrows-1_share-66"></i>
-                        <p>Test Upgrade</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                    <p class="d-lg-none d-xl-none">Twitter</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://web.facebook.com/Best-picture-of-the-earth-702704913154695/" target="_blank">
-                    <i class="fab fa-facebook-square"></i>
-                    <p class="d-lg-none d-xl-none">Facebook</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                    <p class="d-lg-none d-xl-none">Instagram</p>
-                  </a>
-                </li>
-            </ul>
+<div class="wrapper">
+    <div class="page-header page-header-small">
+        <div class="page-header-image" style="background-image: url('assets/img/bg6.jpg');">
+        <div class="container">
+            <div class="content-center">
+                <h1 class="title" style="color: red"><marquee> This is our great company.</marquee></h1>
+            </div>
         </div>
     </div>
-</nav>
+  </div>
+    <div class="section section-about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <h2 class="title">Who we are?</h2>
+                    <h5 class="description"></h5>
+                </div>
+            </div>
+            <div class="separator separator-primary"></div>
+            <div class="section-story-overview">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="image-container image-left" style="background-image: url('assets/img/login.jpg')">
+                            <!-- First image on the left side -->
+                            <p class="blockquote blockquote-primary">
+                              <h1 style="color: red"><marquee>Our web site is under maintenance...</marquee></h1>
+                            
+                        </div>
+                        <!-- Second image on the left side of the article -->
+                        <div class="image-container" style="background-image: url('assets/img/bg3.jpg')"></div>
+                    </div>
+                    <div class="col-md-5">
+                        <!-- First image on the right side, above the article -->
+                        <div class="image-container image-right" style="background-image: url('assets/img/bg3.jpg')"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-team text-center">
+        <div class="container">
+            <h2 class="title">Here is our team</h2>
+            <div class="team">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="team-player">
+                            <img src="assets/img/default-avatar.png" alt="idrice24 Image" class="rounded-circle img-fluid img-raised">
+                            <h4 class="title">Idrice Tsafouet</h4>
+                            <p class="category text-primary">Model</p>
+                            <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
+                                <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                            <a href="#idrice" class="btn btn-primary btn-icon btn-round"><i class="fab fa-twitter"></i></a>
+                            <a href="#idrice" class="btn btn-primary btn-icon btn-round"><i class="fab fa-instagram"></i></a>
+                            <a href="#idrice" class="btn btn-primary btn-icon btn-round"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://github.com/idrice24" class="btn btn-primary btn-icon btn-round"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="team-player">
+                            <img src="assets/img/GCKU9440.jpg" alt="idrice24 Image" class="rounded-circle img-fluid img-raised">
+                            <h4 class="title">Idrice Tsafouet</h4>
+                            <p class="category text-primary">Model</p>
+                            <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
+                                <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                            <a href="#idrice" class="btn btn-primary btn-icon btn-round"><i class="fab fa-twitter"></i></a>
+                            <a href="#idrice" class="btn btn-primary btn-icon btn-round"><i class="fab fa-instagram"></i></a>
+                            <a href="#idrice" class="btn btn-primary btn-icon btn-round"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://github.com/idrice24" class="btn btn-primary btn-icon btn-round"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="team-player">
+                            <img src="assets/img/default-avatar.png" alt="idrice24 Image" class="rounded-circle img-fluid img-raised">
+                            <h4 class="title">Idrice Tsafouet</h4>
+                            <p class="category text-primary">Model</p>
+                            <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
+                                <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                            <a href="#idrice" class="btn btn-primary btn-icon btn-round"><i class="fab fa-twitter"></i></a>
+                            <a href="#idrice" class="btn btn-primary btn-icon btn-round"><i class="fab fa-instagram"></i></a>
+                            <a href="#idrice" class="btn btn-primary btn-icon btn-round"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://github.com/idrice24" class="btn btn-primary btn-icon btn-round"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    <div class="section section-contact-us text-center">
+        <div class="container">
+            <h2 class="title">Want to work with us?</h2>
+            <p class="description">Your project is very important to us.</p>
+            <div class="row">
+                <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
+                    <div class="input-group input-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                          <i class=""></i>
+                      </span>
+                        </div>
+                        <input type="text" name="email" class="form-control" placeholder="Enter Your email">
+                    </div>
+                    <div class="input-group input-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                            <i class="#"></i>
+                      </span>
+                        </div>
+                        <input type="text" name="uname" class="form-control" placeholder="Enter your Name">
+                    </div>
+                    <div class="textarea-container">
+                        <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Type a message..."></textarea>
+                    </div>
+                    <div class="send-button">
+                        <a href="#idrice" class="btn btn-primary btn-round btn-block btn-lg">Send Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br>
+    <!-- add 'footer' snippet in scss -->
+<footer style="background-image: url(assets/img/bg7.jpg);">
+<div class="footer-v1 bg-img">
+    <div class="footer no-margin">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="headline"><p>Follow us on</p></div>
+                    <ul class="list-unstyled link-list">
+                        <li><a href="#"><i class="fa fa-github"></i>Github</a></li>
+                        <li><a href="#"><i class="fa fa-facebook-square"></i>Facebook</a></li>
+                        <li><a href="+237695505757"><i class="fa fa-whatzapp"></i>WhatZapp</a></li>
+                        <li><a href="#twitter"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="headline"><p>Resources</p></div>
+                    <ul class="list-unstyled link-list">
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+          <div class="headline"><p>Support</p></div>
+          <address>
+            <ul class="list-unstyled link-list">
+              <li><a href="#">Contact Us</a></li>
+              <li>
+                <a href="#"><i class="fa fa-envelope"></i>support@company.com</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+         <div class="col-md-3">
+            <div class="headline"><p>Company</p></div>
+             <ul class="list-unstyled link-list">
+            <li><a href="#">About Us</a></li>
+            <li> <a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Cancellation/Rescheduling policy</a></li>
+          </ul>
+                </div>
+
+            <div class="copyright">
+                Designed by
+                <a href="#" target="_blank">HI Techn</a>. Coded by
+                <a href="#" target="_blank">Group Tim</a>.
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+</div>

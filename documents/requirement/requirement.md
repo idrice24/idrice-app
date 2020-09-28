@@ -9,13 +9,16 @@
 
 #	Site Design And Deployment
 1. Domain name
+
 	- for now we are using github domain name-- Wrong: this doc is our base, means our start point -- should tell us what  to do
 
 1. Language
 	Multiple language ie French and English
 
 1. Colors
+
 	The principal color will be green\blue -- red? 
+
 
 1. Activities
 	- Web Site Design
@@ -29,6 +32,7 @@
 
 1. Web site example
 	- https://hi-techn.com --> Wrong --> No works at the moment --
+
 
 1.	Logo (@Idrice ToDo)
 
