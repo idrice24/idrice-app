@@ -10,4 +10,21 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - welcome/run
+      build:
+        working_directory: ~/idrice
+        docker:
+          - image: circleci/node:10-browsers-legacy
+        steps:
+          - checkout
+           key: idrice-{{ .Branch }}-{{ checksum "package.json" }}
+           - run: npm install
+           - save_cache:
+            key: idrice-{{ .Branch }}-{{ checksum "package.json" }}
+            paths:
+              - "node_modules"
+           - run:
+              name: compiles the app into an output directory name dist/
+              command: npm run build
+           - run:
+              name: Deploy the app into an output directory named docs for app
+              command: npm run deploy
