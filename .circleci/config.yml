@@ -2,16 +2,16 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/mns
+    working_directory: ~/idrice
     docker:
       - image: circleci/node:10-browsers-legacy
     steps:
       - checkout
       - restore_cache:
-          key: mns-{{ .Branch }}-{{ checksum "package.json" }}
+          key: idrice-{{ .Branch }}-{{ checksum "package.json" }}
       - run: npm install
       - save_cache:
-          key: mns-{{ .Branch }}-{{ checksum "package.json" }}
+          key: idrice-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - "node_modules"
       #  - run: xvfb-run -a npm run test TODO@Idrice
@@ -19,9 +19,6 @@ jobs:
       - run:
           name: Compiles the app into an output directory named dist/
           command: npm run build
-      - run:
-          name: TODO@Idrice  See issue#104
-          command: dir
       - run:
           name: Deploy the app into an output directory named docs for real app
           command: npm run deploy
