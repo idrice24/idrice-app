@@ -22,7 +22,8 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     ExamplesModule,
     ComponentsModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
