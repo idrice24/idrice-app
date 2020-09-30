@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { ExamplesModule } from './examples/examples.module';
@@ -23,8 +22,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     ExamplesModule,
     ComponentsModule,
     RouterModule,
-    FormsModule,
-    NgbModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
