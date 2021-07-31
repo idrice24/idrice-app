@@ -5,6 +5,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+import {TabMenuModule} from 'primeng/tabmenu';
+import {MenubarModule} from 'primeng/menubar';
+import {ToastModule} from 'primeng/toast';
+
 
 
 
@@ -18,14 +22,24 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+
+    //primeNg Module
+    TabMenuModule,
+    MenubarModule,
+    ToastModule //  allow others module to use toast i.e. app.Module
   ],
 
   exports: [
   HeaderComponent,
   FooterComponent,
   ReactiveFormsModule,
-  RouterModule
+  RouterModule,
+
+  //primeNg Module
+  TabMenuModule,
+  MenubarModule,
+  ToastModule //  allow others module to use toast i.e. app.Module
   ]
 })
 export class SharedModule { }
