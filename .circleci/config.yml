@@ -6,7 +6,6 @@ jobs:
     docker:
       - image: circleci/node:10-browsers-legacy
     steps:
-      - checkout:
       - restore_cache:
           key: idrice-{{ .Branch }}-{{ checksum "package.json" }}
       - run: npm install
