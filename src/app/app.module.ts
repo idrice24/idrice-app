@@ -23,7 +23,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     ComponentsModule,
     RouterModule,
     FormsModule,
-    NgbModule
+    NgModule
   ],
   providers: [],
   bootstrap: [AppComponent]
