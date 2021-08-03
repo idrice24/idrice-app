@@ -6,18 +6,21 @@ import { Routes, RouterModule } from '@angular/router';
 import { ComponentsComponent } from './components/components.component';
 import { LandingComponent } from './examples/landing/landing.component';
 
+import { RegisterComponent } from './core/components/register/register.component';
+import { LoginComponent } from './core/components/login/login.component';
+import { HomeComponent } from './core/components/home/home.component';
+
 const routes: Routes = [
-	{ path: '', redirectTo: 'index', pathMatch: 'full'},
-	{ path: 'index',			component: ComponentsComponent },
-	{ path: 'examples/landing', component: LandingComponent }
+	{ path: '', redirectTo: '/home', pathMatch: 'full'},
+	{ path: 'home',			component: HomeComponent, data:{ animation: 'HomePage'} },
+	{ path: 'examples/landing', component: LandingComponent },
+	{ path: 'login', component: LoginComponent },
+	{ path: 'register', component: RegisterComponent }
 ];
 
 @NgModule({
-  imports: [
-  		CommonModule,
-  		BrowserModule,
-  		RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { anchorScrolling: 'enabled', relativeLinkResolution: 'legacy' })],
 
-  exports: [],
+  exports: [ RouterModule]
 })
 export class AppRoutingModule { }
