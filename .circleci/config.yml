@@ -6,7 +6,7 @@ jobs:
     docker:
       - image: circleci/node:10-browsers-legacy
     steps:
-      - checkout:
+      - checkout
       - restore_cache:
           key: idrice-{{ .Branch }}-{{ checksum "package.json" }}
       - run: npm install
@@ -17,7 +17,7 @@ jobs:
       #  - run: xvfb-run -a npm run test TODO@Idrice
       #  - run: xvfb-run -a npm run e2e
       - run:
-          name: Compiles the app into an output directory named dist/
+          name: Compiles the app into an output directory named docs/
           command: npm run build
       - run:
           name: Deploy the app into an output directory named docs for real app
