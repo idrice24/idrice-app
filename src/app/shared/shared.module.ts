@@ -13,7 +13,7 @@ import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { TooltipModule } from 'primeng/tooltip';
 import { MenubarModule } from 'primeng/menubar';
-import { MessageService } from 'primeng/api';
+// import { MessageService } from 'primeng/api';
 import { DataViewModule } from 'primeng/dataview';
 import { TableModule } from 'primeng/table';
 import { ToolbarModule } from 'primeng/toolbar';
@@ -39,8 +39,9 @@ import { RippleModule } from 'primeng/ripple';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { ProgressSpinnerModule } from 'primeng/progressspinner';
 import { ProgressBarModule } from 'primeng/progressbar';
-import { Title } from '@angular/platform-browser';
+//import { Title } from '@angular/platform-browser';
 //import { ScrollTopModule } from 'primeng/scrolltop';
+
 
 import { GMapModule } from 'primeng/gmap';
 import { PasswordModule } from 'primeng/password';
@@ -77,7 +78,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ButtonModule,
     InputTextModule,
     TooltipModule,
-    MessageService,
+    //MessageService,
     DataViewModule,
     TableModule,
     ToolbarModule,
@@ -102,7 +103,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     RadioButtonModule,
     ProgressSpinnerModule,
     ProgressBarModule,
-    Title,
+    //Title,
     GMapModule,
     PasswordModule,
     CheckboxModule,
@@ -122,7 +123,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   ButtonModule,
   InputTextModule,
   TooltipModule,
-  MessageService,
+  // MessageService,
   DataViewModule,
   TableModule,
   ToolbarModule,
@@ -147,11 +148,12 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   RadioButtonModule,
   ProgressSpinnerModule,
   ProgressBarModule,
-  Title,
+ // Title,
   GMapModule,
   PasswordModule,
   CheckboxModule,
-  GalleriaModule
+  GalleriaModule,
+  ButtonModule
   ]
 })
 export class SharedModule { }
