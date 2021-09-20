@@ -1,6 +1,6 @@
 <!-- from mns237 -->
 <header>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top py-0">
+	<nav class="navbar navbar-expand-lg navbar-blue bg-secondary fixed-top py-0">
 		<div class="container">
 			<a class="navbar-brand fontalt">
 				<img class="mr-2 mb-3" src="" height="40">LOGO
@@ -11,16 +11,16 @@
 			<div class="collapse navbar-collapse justify-content-end text-uppercase" id ="navbar-toggle">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a  class="nav-link"><i class="icon-home"></i>Home</a>
+						<a  class="nav-link" routerLinkActive="active" routerLink="/home"><i class="icon-home"></i>Home</a>
 					</li>
 					<li class="nav-item">
-						<a  class="nav-link"><i class="icon-home"></i>Product</a>
+						<a  class="nav-link smooth" routerLinkActive="active" routerLink="/products"><i class="icon-home"></i>Product</a>
 					</li>
 					<li class="nav-item">
-						<a  class="nav-link"><i class="icon-home"></i>Contact</a>
+						<a  class="nav-link" routerLinkActive="active" routerLink="/contact"><i class="icon-home"></i>Contact</a>
 					</li>
 					<li class="nav-item">
-						<a  class="nav-link smooth"><i class="icon-home"></i>About-Us</a>
+						<a  class="nav-link smooth" routerLinkActive="active" routerLink="/about-us"><i class="icon-home"></i>About-Us</a>
 					</li>
 					<li class="nav-item">
 						<a  class="nav-link"><i class="icon-envelope"></i>Info</a>
@@ -32,11 +32,11 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMEDIA">
               <i class="icon-photo"></i>
-              <a class="dropdown-item"><i class="icon-picture"></i>&nbsp;&nbsp;Gallerie
+              <a class="dropdown-item" routerLinkActive="active" routerLink="/medias/gallery"><i class="icon-picture"></i>&nbsp;&nbsp;Gallerie
                 Photos</a>
               <div class="dropdown-divider"></div>
               <i class="icon-video"></i>
-              <a class="dropdown-item smooth" ><i
+              <a class="dropdown-item smooth" routerLinkActive="active" routerLink="/medias/videos" ><i
                   class="icon-camera"></i>&nbsp;&nbsp;Videos</a>
             </div>
           </li>
@@ -45,10 +45,10 @@
               aria-haspopup="true" aria-expanded="true">
 								<i class="fa fa-cogs d-lg-none d-xl-none"></i>IBC</a>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenuButtonIBC">
-								<a class="dropdown-item">
+								<a class="dropdown-item" routerLinkActive="active" routerLink="/ibc/login">
 									<i class="icon-login">Login</i></a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item">
+									<a class="dropdown-item" routerLinkActive="active" routerLink="/ibc/register">
 										<i class="icon-people">Register</i></a></div>
 
 						</li>
@@ -58,4 +58,10 @@
 			</div>
 		</div>
 	</nav>
+
 </header>
+<p-dock [model]="dockItems" position="bottom">
+    <ng-template pTemplate="item" let-item>
+        <img [src]="item.icon" [alt]="item.label" width="100%">
+    </ng-template>
+</p-dock>

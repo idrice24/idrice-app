@@ -10,7 +10,8 @@ Clear-Host
 npm run deploy
 
 # Run all test
-npm run test-deploy
+# npm run test
+
 
 # Go to docs
 Set-Location docs

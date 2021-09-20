@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
+
+
 // primNg module imports
 import {TabMenuModule} from 'primeng/tabmenu';
 import {ToastModule} from 'primeng/toast';
@@ -28,7 +30,7 @@ import { DividerModule } from 'primeng/divider';
 import { PanelModule } from 'primeng/panel';
 
 import { RatingModule } from 'primeng/rating';
-//import { DropdownModule } from 'primeng/dropdown';
+import { DropdownModule } from 'primeng/dropdown';
 import { TabViewModule } from 'primeng/tabview';
 import { FieldsetModule } from 'primeng/fieldset';
 import { MenuModule } from 'primeng/menu';
@@ -49,6 +51,8 @@ import { CheckboxModule } from 'primeng/checkbox';
 
 import { GalleriaModule } from 'primeng/galleria';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import {SkeletonModule} from 'primeng/skeleton';
+import {DockModule} from 'primeng/dock';
 //import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 
@@ -108,6 +112,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     PasswordModule,
     CheckboxModule,
     GalleriaModule,
+    SkeletonModule,
+    DockModule,
   ],
 
   exports: [
@@ -153,7 +159,9 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   PasswordModule,
   CheckboxModule,
   GalleriaModule,
-  ButtonModule
+  ButtonModule,
+  SkeletonModule,
+  DockModule
   ]
 })
 export class SharedModule { }
