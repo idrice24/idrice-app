@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
+import { Router, NavigationEnd, RouterOutlet } from '@angular/router';
 import { PrimeNGConfig } from 'primeng/api';
 // import * as AOS from 'aos';
 @Component({
@@ -19,4 +19,9 @@ constructor(
 
 	ngOnInit(): void {
 	}
+
+	// Detect when a view changes
+  prepareRoute(outlet: RouterOutlet) {
+    return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
+  }
 }

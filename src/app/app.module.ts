@@ -11,6 +11,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { SharedModule } from './shared/shared.module';
 // import { MessageService } from 'primeng/api';
 import { Router } from '@angular/router';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -19,10 +20,10 @@ import { Router } from '@angular/router';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     RouterModule,
     FormsModule,
     SharedModule,
+    CoreModule,
     AppRoutingModule // CLI adds AppRoutingModule to the AppModule's imports array
 
   ],

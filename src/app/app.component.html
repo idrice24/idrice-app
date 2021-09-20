@@ -1,9 +1,17 @@
 
+
 <div>
-<app-header></app-header><br><br>
-	<div class="container-fluid" >
+	<p-card header="header">
+<app-header></app-header>
+	</p-card>
+	
+<p-card body="body">
+	<div class="container-fluid" [@routerAnimations]="prepareRoute(outlet)">
     	<router-outlet #outlet="outlet"></router-outlet>
     </div>
+</p-card>
 
+<p-card footer="footer">
 <app-footer></app-footer>
+</p-card>
 </div>
