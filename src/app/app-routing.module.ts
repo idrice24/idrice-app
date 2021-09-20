@@ -1,6 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { ComponentsComponent } from './components/components.component';
@@ -13,9 +11,18 @@ import { HomeComponent } from './core/components/home/home.component';
 const routes: Routes = [
 	{ path: '', redirectTo: '/home', pathMatch: 'full'},
 	{ path: 'home',			component: HomeComponent, data:{ animation: 'HomePage'} },
-	{ path: 'examples/landing', component: LandingComponent },
-	{ path: 'login', component: LoginComponent },
-	{ path: 'register', component: RegisterComponent }
+	{ 
+		path: 'products',
+		loadChildren: () => import('./product/product.module').then(m => m.ProductModule)
+	 },
+	{ 
+		path: 'contact',
+		loadChildren: () => import('./contact/contact.module').then(m => m.ContactModule) 
+	 },
+	{ 
+		path: 'about-us',
+		loadChildren: () => import('./about-us/about-us.module').then(m => m.AboutUsModule)
+	 }
 ];
 
 @NgModule({
