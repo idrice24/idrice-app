@@ -9,8 +9,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 // primNg module imports
-import {TabMenuModule} from 'primeng/tabmenu';
-import {ToastModule} from 'primeng/toast';
+import { TabMenuModule } from 'primeng/tabmenu';
+import { ToastModule } from 'primeng/toast';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { TooltipModule } from 'primeng/tooltip';
@@ -75,7 +75,6 @@ import {DockModule} from 'primeng/dock';
     ReactiveFormsModule,
     RouterModule,
 
-    //primeNg Module
     TabMenuModule,
     MenubarModule,
     ToastModule, //  allow others module to use toast i.e. app.Module
@@ -96,7 +95,7 @@ import {DockModule} from 'primeng/dock';
     DividerModule,
     PanelModule,
     RatingModule,
-   // DropdownModule,
+    DropdownModule,
     TabViewModule,
     FieldsetModule,
     MenuModule,
@@ -123,6 +122,7 @@ import {DockModule} from 'primeng/dock';
   RouterModule,
 
   //primeNg Module
+
   TabMenuModule,
   MenubarModule,
   ToastModule, //  allow others module to use toast i.e. app.Module
@@ -143,7 +143,7 @@ import {DockModule} from 'primeng/dock';
   DividerModule,
   PanelModule,
   RatingModule,
-  //DropdownModule,
+  DropdownModule,
   TabViewModule,
   FieldsetModule,
   MenuModule,
