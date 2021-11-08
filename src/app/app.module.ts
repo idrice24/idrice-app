@@ -4,25 +4,27 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { ComponentsModule } from './components/components.module';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './shared/navbar/navbar.component';
 import { SharedModule } from './shared/shared.module';
 // import { MessageService } from 'primeng/api';
 import { Router } from '@angular/router';
+import { CoreModule } from './core/core.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavbarComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     RouterModule,
     FormsModule,
     SharedModule,
+    CoreModule,
+    HttpClientModule, 
+    BrowserAnimationsModule,
     AppRoutingModule // CLI adds AppRoutingModule to the AppModule's imports array
 
   ],
