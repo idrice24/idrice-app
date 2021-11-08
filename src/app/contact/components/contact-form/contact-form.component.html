@@ -1,0 +1,39 @@
+<h1 dat-aos="fade-in-up" data-aos-offset="100" class="text-primary">
+	Text Us over Email</h1>
+	<form role="form" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+		<div class="form-group">
+			
+			<div class="row">
+
+			<div class="col-sm-6">
+				<div class="col-sm-12">
+					<textarea class="form-control" formControlName="msg" style="height: 190px;" placeholder="Message"></textarea>
+				</div>
+			</div>
+
+			<div class="col-sm-6">
+				
+					<div class="col-sm-8 col-md-12 col-lg-*">
+						<span class="col-sm-4"><i class="pi pi-user"></i></span>
+						<input class="form-control" formControlName="uname" type="text" placeholder="Name">
+					</div>
+				
+
+
+        <div class="col-sm-8 col-md-12">
+          <span class="col-sm-4">
+            <i class="pi pi-envelope"></i>
+          </span>
+          <input class="form-control" formControlName="email" type="text" placeholder="Your Email">
+        </div>
+     
+        <br>
+      <div class="col-sm-8 col-md-12 col-lg-*">
+        <button  type="submit" label="Submit" class="btn btn-primary btn-lg ">Submit</button>
+      </div>
+			</div>
+		</div>
+	</div>
+	</form>
+	 <p>output of message: {{ contactForm.value | json }}</p>
+

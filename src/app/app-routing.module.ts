@@ -7,6 +7,7 @@ import { LandingComponent } from './examples/landing/landing.component';
 import { RegisterComponent } from './core/components/register/register.component';
 import { LoginComponent } from './core/components/login/login.component';
 import { HomeComponent } from './core/components/home/home.component';
+import { AuthGuard } from './auth/guards/auth.guard';
 
 const routes: Routes = [
 	{ path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -22,6 +23,23 @@ const routes: Routes = [
 	{ 
 		path: 'about-us',
 		loadChildren: () => import('./about-us/about-us.module').then(m => m.AboutUsModule)
+	 },
+	 {
+    path: 'admin',
+    loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule),
+    canLoad: [AuthGuard]
+  },
+	 {
+	 	path: 'newsletter',
+	 	loadChildren: () => import('./info/info.module').then(m => m.InfoModule)
+	 },
+	 {
+	 	path: 'medias/videos',
+	 	loadChildren: () => import('./medias/medias.module').then(m => m.MediasModule)
+	 },
+	 {
+	 	path: 'medias/photos',
+	 	loadChildren: () => import('./medias/medias.module').then(m => m.MediasModule)
 	 }
 ];
 

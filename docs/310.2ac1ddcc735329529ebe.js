@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkidrice=self.webpackChunkidrice||[]).push([[310],{8310:(M,s,u)=>{u.r(s),u.d(s,{AboutUsModule:()=>t});var l=u(8583),n=u(922),d=u(639);let t=(()=>{class o{}return o.\u0275fac=function(e){return new(e||o)},o.\u0275mod=d.oAB({type:o}),o.\u0275inj=d.cJS({imports:[[l.ez,n.m]]}),o})()}}]);

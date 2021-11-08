@@ -9,6 +9,9 @@ import { ContactModule } from '../contact/contact.module';
 import { RouterModule } from '@angular/router';
 
 import { ProductModule } from '../product/product.module';
+import { AboutUsModule } from '../about-us/about-us.module';
+import { InfoModule } from '../info/info.module';
+import { MediasModule } from '../medias/medias.module';
 
 
 
@@ -23,7 +26,10 @@ import { ProductModule } from '../product/product.module';
     SharedModule,
     ContactModule,
     ProductModule,
-    RouterModule
+    RouterModule,
+    AboutUsModule,
+    InfoModule,
+    MediasModule
   ],
   exports:[
     HomeComponent,

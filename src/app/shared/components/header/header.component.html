@@ -1,66 +1,67 @@
 <!-- from mns237 -->
 <header>
-	<nav class="navbar navbar-expand-lg navbar-blue bg-secondary fixed-top py-0">
-		<div class="container">
-			<a class="navbar-brand fontalt">
-				<img class="mr-2 mb-3" src="" height="40">LOGO
-			</a>
-			<button class="navbar-toggler btn-round" type="button" data-toggle="collapse" data-target="#navbar-toggle" aria-controls="navbar-toggle">
+    <nav class="navbar navbar-expand-lg navbar-blue bg-secondary fixed-top py-0">
+        <div class="container">
+            <a class="navbar-brand fontalt">
+                <img class="mr-2 mb-3" src="" height="40">LOGO
+            </a>
+            <button class="navbar-toggler btn-round" type="button" data-toggle="collapse" data-target="#navbar-toggle" aria-controls="navbar-toggle">
 				<span class="icon-menu"></span>
 			</button>
-			<div class="collapse navbar-collapse justify-content-end text-uppercase" id ="navbar-toggle">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a  class="nav-link" routerLinkActive="active" routerLink="/home"><i class="icon-home"></i>Home</a>
-					</li>
-					<li class="nav-item">
-						<a  class="nav-link smooth" routerLinkActive="active" routerLink="/products"><i class="icon-home"></i>Product</a>
-					</li>
-					<li class="nav-item">
-						<a  class="nav-link" routerLinkActive="active" routerLink="/contact"><i class="icon-home"></i>Contact</a>
-					</li>
-					<li class="nav-item">
-						<a  class="nav-link smooth" routerLinkActive="active" routerLink="/about-us"><i class="icon-home"></i>About-Us</a>
-					</li>
-					<li class="nav-item">
-						<a  class="nav-link"><i class="icon-envelope"></i>Info</a>
-					</li>
-					<li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"  id="navbarDropdownMEDIA"
-              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <div class="collapse navbar-collapse justify-content-end text-uppercase" id="navbar-toggle">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" routerLinkActive="active" routerLink="/home"><i class="icon-home"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth" routerLinkActive="active" routerLink="/products"><i class="icon-home"></i>Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLinkActive="active" routerLink="/contact"><i class="icon-home"></i>Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth" routerLinkActive="active" routerLink="/about-us"><i class="icon-home"></i>About-Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLinkActive="active" routerLink="/newsletter"><i class="icon-envelope"></i>Info</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMEDIA" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               Medias
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMEDIA">
-              <i class="icon-photo"></i>
-              <a class="dropdown-item" routerLinkActive="active" routerLink="/medias/gallery"><i class="icon-picture"></i>&nbsp;&nbsp;Gallerie
+                        <div class="dropdown-menu">
+                            <i class="icon-photo"></i>
+                            <a class="dropdown-item" routerLinkActive="active" routerLink="/medias/gallery"><i class="icon-picture"></i>&nbsp;&nbsp;Gallerie
                 Photos</a>
-              <div class="dropdown-divider"></div>
-              <i class="icon-video"></i>
-              <a class="dropdown-item smooth" routerLinkActive="active" routerLink="/medias/videos" ><i
+                            <div class="dropdown-divider"></div>
+                            <i class="icon-video"></i>
+                            <a class="dropdown-item smooth" routerLinkActive="active" routerLink="/medias/videos"><i
                   class="icon-camera"></i>&nbsp;&nbsp;Videos</a>
-            </div>
-          </li>
-					<li class="nav-item dropdown">
-							<a href="" class="nav-link dropdown-toggle" role="button" id="dropdownMenuButtonIBC" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="true">
-								<i class="fa fa-cogs d-lg-none d-xl-none"></i>IBC</a>
-							<div class="dropdown-menu" aria-labelledby="dropdownMenuButtonIBC">
-								<a class="dropdown-item" routerLinkActive="active" routerLink="/ibc/login">
-									<i class="icon-login">Login</i></a>
-									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" routerLinkActive="active" routerLink="/ibc/register">
-										<i class="icon-people">Register</i></a></div>
+                        </div>
+                    </li>
 
-						</li>
-					
-					
-				</ul>
-			</div>
-		</div>
-	</nav>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="true" data-toggle="dropdown">
+                            <i class="fa fa-cogs d-lg-none d-xl-none"></i>IBC
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="menu1">
+                            <li>
+                                <a class="dropdown-item" routerLinkActive="active" routerLink="/ibc/login">
+                                    <i class="icon-login">login</i>
+                                </a>
+                            </li>
+                            <div class="divider"></div>
+                            <li><a class="dropdown-item" routerLonkActive="active" routerLink="/ibc/register">SignUp</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 </header>
-<p-dock [model]="dockItems" position="bottom">
+<p-dock [model]="dockItems" position="right">
     <ng-template pTemplate="item" let-item>
         <img [src]="item.icon" [alt]="item.label" width="100%">
     </ng-template>

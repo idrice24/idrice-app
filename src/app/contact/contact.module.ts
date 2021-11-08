@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ContactComponent } from './components/contact.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { RouterModule, Routes } from '@angular/router';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
-import {SkeletonModule} from 'primeng/skeleton';
+import { SkeletonModule } from 'primeng/skeleton';
 
 import { SharedModule } from '../shared/shared.module';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { ContactMapComponent } from './components/contact-map/contact-map.component';
+
 
 const routes: Routes =
 [
@@ -14,17 +19,20 @@ const routes: Routes =
 }]
 @NgModule({
   declarations: [
-    ContactComponent
-    
+    ContactComponent,
+    ContactFormComponent,
+    ContactMapComponent
   ],
   imports: [
     CommonModule,
+    FormsModule,
+    BrowserModule,
     SharedModule,
     RouterModule.forChild(routes),
     SkeletonModule
   ],
   exports:[
-  ContactComponent,
+  ContactFormComponent,
   SkeletonModule]
 })
 export class ContactModule { }
